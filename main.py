@@ -9,6 +9,7 @@ class InstagramBot:
     def __init__(self, username, password):
         self.username = username
         self.password = password
+        #change the path according to your pc
         self.bot = webdriver.Chrome('/home/mai/Downloads/chromedriver_linux64/chromedriver')
 
     # Function will log us in to Instagram
