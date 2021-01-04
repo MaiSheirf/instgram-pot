@@ -91,7 +91,7 @@ class InstagramBot:
 
             time.sleep(2)
 
-
+#enter your instgram account and password
 insta = InstagramBot('fatmayounss@gmail.com', '01156827584')
 insta.login()
 insta.findMyFollowers(5)
